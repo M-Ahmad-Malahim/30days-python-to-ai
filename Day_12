@@ -1,0 +1,19 @@
+# Day 12 — Basic Statistics Tool
+
+import numpy as np
+
+# Create array
+arr = np.array([10, 20, 30, 40])
+
+# Calculate statistics
+mean_value = arr.mean()
+max_value = arr.max()
+min_value = arr.min()
+sum_value = arr.sum()
+
+# Display results
+print("Data:", arr)
+print("Mean:", mean_value)
+print("Max:", max_value)
+print("Min:", min_value)
+print("Sum:", sum_value)
