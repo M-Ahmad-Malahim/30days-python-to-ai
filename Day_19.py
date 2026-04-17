@@ -23,7 +23,7 @@ print("Average Sales:", average_sales)
 print(f"Best Day: {days[best_index]} with sales = {sales[best_index]}")
 print(f"Worst Day: {days[worst_index]} with sales = {sales[worst_index]}")
 
-# Extra insight (intermediate touch)
+# Extra insight
 above_avg_sales = sales[sales > average_sales]
 
 print("\nDays with Above Average Sales:", above_avg_sales)
